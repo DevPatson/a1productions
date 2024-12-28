@@ -807,9 +807,13 @@ textarea.input-field {
 }
 
 
+@media (max-width: 768px) {
 
+.hero-subtitle{
+  display: none;
+ }
 
-
+}
 /**
  * responsive for larger than 768px screen
  */
@@ -840,7 +844,7 @@ textarea.input-field {
   /**
    * REUSED STYLE
    */
-
+   
   .container { max-width: 720px; }
 
   .section-text {
