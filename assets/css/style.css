@@ -352,14 +352,21 @@ body {
 
 .hero-title { margin-block: 12px 8px; }
 
-.hero-text { font-size: var(--fs-5); }
+.hero-text { font-size: var(--fs-5);
+  }
 
 .hero .btn {
   margin-inline: auto;
   margin-block-start: 20px;
 }
-
-
+.hero-banner{
+  /* animation: bounce-2 7s 100ms ease-in-out infinite ;   */
+}
+@keyframes bounce-2 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-25px);} 
+  100% { transform: translateY(0); }
+}
 
 
 
@@ -812,7 +819,9 @@ textarea.input-field {
 .hero-subtitle{
   display: none;
  }
-
+ .hero-banner{
+  animation: none;
+ }
 }
 /**
  * responsive for larger than 768px screen

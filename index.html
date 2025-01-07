@@ -15,10 +15,15 @@
   <!-- 
     - custom css link
   -->
+  <link rel="stylesheet" href="./assets/css/index.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/client.css">
   <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="./assets/css/pricing.css">
+  <link rel="stylesheet" href="./assets/css/testimonial.css">
+  <link rel="stylesheet" href="./assets/css/icons.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
   <!-- 
@@ -64,7 +69,7 @@
           </li>
 
           <li>
-            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            <a href="#pricing" class="navbar-link" data-nav-link>Pricing</a>
           </li>
 
           <li>
@@ -558,7 +563,7 @@
         - #BLOG
       -->
 
-      <section class="section blog" id="blog" aria-label="blog">
+      <!-- <section class="section blog" id="blog" aria-label="blog">
         <div class="container">
 
           <h2 class="h2 section-title">Latest Articles Updated Weekly</h2>
@@ -679,11 +684,235 @@
           </ul>
 
         </div>
+      </section> -->
+
+
+      <!-- PRICING -->
+
+      <!-- 
+
+INSTRUCTIONS:
+- Using html and css, create the design we shared with you on Figma.
+
+WHAT WE EXPECT FROM YOU:
+- Your code should be scalable and maintainable.
+- Your code should be component-based.
+- Your code should support all modern browsers.
+- You are completely free to use the new css features.
+-->
+
+      <!-- YOUR HTML STARTS HERE -->
+
+      <section id="pricing" class="plans_container">
+        <div class="plans">
+          <div class="plansHero">
+            <h2 class="h2 section-title">Pricing</h2>
+
+            <p style="margin-block: 5px 35px" class="section-text">
+              Flexible pricing plans tailored to suit your needs, helping your business grow and achieve success. </p>
+          </div>
+          <div class="planItem_container">
+            <!--free plan starts -->
+            <div class="planItem planItem--free">
+
+              <div class="card">
+                <div class="card_header">
+                  <div class="card_icon symbol symbol--rounded"></div>
+                  <h2>Basic</h2>
+                </div>
+                <div class="card_desc">Essential features for beginners starting their digital marketing journey</div>
+              </div>
+
+              <div class="price">₹9000<span>/ month</span></div>
+
+              <ul class="featureList">
+                <li>12 Creatives</li>
+                <li>2 Revisions per post</li>
+                <li>Dedicated Manager</li>
+
+                <li>Analytics</li>
+                <li>Weekly Reporting</li>
+                <li>Group Sharing</li>
+                <li class="disabled">Email Marketing</li>
+
+                <li class="disabled">Blogger Relations</li>
+                <li class="disabled">Competitor’s Report</li>
+              </ul>
+
+              <button class="button">Get Started</button>
+            </div>
+            <!--free plan ends -->
+
+            <!--pro plan starts -->
+            <div class="planItem planItem--pro">
+              <div class="card">
+                <div class="card_header">
+                  <div class="card_icon symbol"></div>
+                  <h2>Pro</h2>
+                  <div class="card_label label">Best Value</div>
+                </div>
+                <div class="card_desc">Advanced tools to help growing businesses scale and succeed effortlessly.</div>
+              </div>
+
+              <div class="price">₹18000<span>/ month</span></div>
+
+              <ul class="featureList">
+                <li>16 Creatives</li>
+                <li>3 Revisions per post</li>
+                <li>Dedicated Manager</li>
+                <li>Analytics</li>
+                <li>Weekly Reporting</li>
+                <li>Group Sharing</li>
+                <li>Email Marketing (2k mails)</li>
+                <li class="disabled">Blogger Relations</li>
+                <li class="disabled">Competitor’s Report</li>
+              </ul>
+
+              <button class="button button--pink">Get Started</button>
+            </div>
+            <!--pro plan ends -->
+
+            <!--entp plan starts -->
+            <div class="planItem planItem--entp">
+              <div class="card">
+                <div class="card_header">
+                  <div class="card_icon"></div>
+                  <h2>Enterprise</h2>
+                </div>
+                <div style="color: white;" class="card_desc">Custom solutions for organizations seeking maximum growth
+                  and impact.</div>
+              </div>
+
+              <div class="price">₹27000<span style="color: white;">/ month</span></div>
+
+              <ul class="featureList">
+                <li>20 Creatives</li>
+                <li>4 Revisions per post</li>
+                <li>Dedicated Manager</li>
+                <li>Analytics</li>
+                <li>Weekly Reporting</li>
+                <li>Group Sharing</li>
+                <li>Email Marketing (2k mails)</li>
+                <li>Blogger Relations (upto 3)</li>
+                <li>Competitor’s Report</li>
+
+              </ul>
+
+              <button class="button button--white">Get Started</button>
+            </div>
+            <!--entp plan ends -->
+
+          </div>
+        </div>
       </section>
 
 
+      <section class="section category" aria-label="category">
+        <div class="container">
+
+          <h2 class="h2 section-title">Reviews</h2>
+
+          <p style="margin-block: 5px 35px" class="section-text">
+            Our clients' success stories showcase the impact of our strategies, dedication, and results-driven approach.
+            See why businesses trust us to elevate their brands
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="div5 eachdiv">
+                <div class="userdetails">
+                  <div class="detbox">
+                    <p class="name">Rajesh Kumar</p>
+                    <p class="designation">Entrepreneur</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Professional and highly effective digital marketing services!</h4>
+                  <p>“ A1 Productions helped me grow my business by crafting campaigns that perfectly aligned with my
+                    brand. Their dedication and creativity exceeded my expectations, delivering real results that set
+                    them apart from other agencies. ”</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="div5 eachdiv">
+                <div class="userdetails">
+                  <div class="detbox">
+                    <p class="name">Anita Sharma</p>
+                    <p class="designation">Nutritionist</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Exceptional service that truly makes a difference!</h4>
+                  <p>“ A1 Productions helped me create a strong online presence for my nutrition services. Their
+                    targeted campaigns attracted the right clients and significantly increased my business reach, making
+                    me more visible. ”</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="div5 eachdiv">
+                <div class="userdetails">
+                  <div class="detbox">
+                    <p class="name">Vikram Patel</p>
+                    <p class="designation">Real Estate Consultant</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Incredible attention to detail and strategy!</h4>
+                  <p>“ A1 Productions helped me stand out in a competitive market. Their expertise in digital marketing
+                    brought more visibility to my properties, leading to an increase in leads and actual sales. Their
+                    professionalism and customer care were exceptional throughout. ”</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="div5 eachdiv">
+                <div class="userdetails">
+                  <div class="detbox">
+                    <p class="name">Pooja Mehra</p>
+                    <p class="designation">Fashion Designer</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Creative solutions tailored to my needs!</h4>
+                  <p>“ A1 Productions brought my vision to life by designing campaigns that showcased my work
+                    beautifully. Their efforts helped me gain recognition, expand my client base effectively, and
+                    establish trust within the fashion community. Their innovation always kept me ahead of the
+                    competition. ”</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="div5 eachdiv">
+                <div class="userdetails">
+                  <div class="detbox">
+                    <p class="name">Rohan Verma</p>
+                    <p class="designation">Startup Founder</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Reliable, innovative, and results-driven!</h4>
+                  <p>“ Partnering with A1 Productions was the best decision for my startup. Their creative campaigns and
+                    innovative marketing strategies played a huge role in establishing my brand in the market. They
+                    exceeded expectations every step of the way, ensuring constant growth and measurable results. ”</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
 
 
+
+
+
+        </div>
+      </section>
 
       <!-- 
         - #CONTACT
@@ -692,7 +921,7 @@
       <section class="section contact" id="contact" aria-label="contact">
         <div class="container">
 
-          <h2 class="h2 section-title">Let's Contact With Us</h2>
+          <h2 class="h2 section-title">Contact Us</h2>
 
           <p class="section-text">
             We’re here to turn your ideas into impactful results. Contact us today and let’s create something amazing
@@ -716,14 +945,7 @@
             <textarea name="message" aria-label="message" placeholder="Your message...*" required
               class="input-field"></textarea>
 
-            <div class="checkbox-wrapper">
-              <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
 
-              <label for="terms" class="label">
-                Accept <a href="#" class="label-link">Terms of Services</a> and <a href="#" class="label-link">Privacy
-                  Policy</a>
-              </label>
-            </div>
 
             <button type="submit" class="btn btn-primary">Send Message</button>
 
@@ -809,9 +1031,29 @@
   <footer class="footer">
     <div class="container">
 
-      <p class="copyright">
-        &copy; 2024 All Rights Reserved by <a href="#" class="copyright-link">Pratik Sonar</a>
-      </p>
+
+      <div  class="rounded-social-buttons">
+        <p class="copyright">
+          &copy; 2024 All Rights Reserved by <a href="#" class="copyright-link">Pratik Sonar</a>
+        </p>
+        <div class="icon-container" >
+          <!-- <a class="social-button facebook" href="/"
+            target="_blank"><i class="fab fa-facebook-f"></i></a> -->
+          <a class="social-button whatsapp" style="display: flex;justify-content: center;align-items: center;"
+            href="https://web.whatsapp.com" target="_blank"><i style="height: 25px;
+            width: 25px;" class="fab fa-whatsapp"></i></a>
+          <a class="social-button twitter" style="display: flex;justify-content: center;align-items: center;"
+            href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <!-- <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+        <a class="social-button tiktok" href="https://www.tiktok.com/" target="_blank"><i
+                class="fab fa-tiktok"></i></a> -->
+          <!-- <a class="social-button youtube" href="https://www.youtube.com/@richabisht7835" target="_blank"><i
+                class="fab fa-youtube"></i></a> -->
+          <a class="social-button instagram" style="display: flex;justify-content: center;align-items: center;" id=""
+            href="https://www.instagram.com/_" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
 
     </div>
   </footer>
@@ -855,6 +1097,8 @@
       once: true,
 
     });
+
+
 
   </script>
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
